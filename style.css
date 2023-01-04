@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0e0e0;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.con {
+    width: 90%;
+    height: auto;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow: 15px 15px 30px #bebebe,
+                -15px -15px 30px #ffffff;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0;
+    color: #051329;
+    background: #8f8b8b;
+}
+
+p {
+    text-align: center;
+    padding: 0 10px;
+}
+
+.input-btn {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    border-bottom: 2px solid #121212;
+}
+
+input {
+    font-size: 1.5rem;
+    width: 50%;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 80%;
+    text-align: center;
+}
+
+button {
+    width: 50%;
+    border: none;
+    background-color: #7acdcf;
+    font-size: 1.05rem;
+    outline: none;
+}
+
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    border: 2px solid #8f8b8b;
+}
+
+td {
+    font-size: 90%;
+    border: 1px solid #000;
+    padding: 3px;
+    text-align: center;
+}
+
+tr:first-child td {
+    background-color: #7acdcf!important;
+}
+
+td:first-child {
+    background-color: #7acdcf!important;
+}
+
+tr:nth-child(odd) td {
+    background-color: #afa1a1;
+}
+
+td:nth-child(odd) {
+    background-color: #d2d2d2;
+}
+
+.msg {
+    font-size: 1.15rem;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    background-color: #db4b4b;
+}
